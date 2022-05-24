@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sb
 
 def run_eda() :
-    st.subheader('데이터 분석')
+    st.subheader('데이터 분석 페이지')
 
     car_df = pd.read_csv('data/Car_Purchasing_Data.csv', encoding='ISO-8859-1')
 
